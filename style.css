@@ -1,0 +1,23 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.logo{
+    display:flex;
+}
+.encabezado {
+    display: flex;
+
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    justify-content:space-between;
+}

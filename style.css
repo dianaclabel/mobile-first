@@ -117,3 +117,18 @@ main{
     max-width: 900px;
     margin: 0 auto;
 }
+.main-exchange-container .backgroundImg {
+      width:200px;
+      height: 200px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      background-image:url("./assets/imgs/bitcoin.svg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+.main-exchange-container h2{
+    margin-bottom:30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}

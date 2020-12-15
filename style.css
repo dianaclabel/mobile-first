@@ -158,8 +158,8 @@ main {
   line-height: 2.3rem;
   color: var(--bitcoin-orange);
 }
-.main-comision-table .comision-table--title{
-    color:var(--secondary-blue);
+.main-comision-table .comision-table--title {
+  color: var(--secondary-blue);
 }
 .comision-table--container,
 .currency-table--container {

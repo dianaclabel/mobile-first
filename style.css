@@ -16,6 +16,7 @@
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #ffffff;
+  --yellow:#FFD064;
 }
 
 * {
@@ -378,7 +379,7 @@ margin-bottom: 50px;
   line-height: 1.8rem;
   color: #757575;
 }
-.plans-container--card {
+.plans-container--card, .plans-container--trimestral,.plans-container--mensual {
   position: relative;
   width: 70%;
   min-width: 230px;
@@ -390,7 +391,13 @@ margin-bottom: 50px;
   border-radius:15px ;
   box-shadow:0 4px 8px rgba(89, 73, 30, 0.16);
 }
-.recomendado{
+.plans-container--trimestral{
+  background-color: var(--black);
+}
+.plans-container--mensual{
+  background-color: var(--bitcoin-orange);
+}
+.recomendado, .plan-trimestral, .plan-mensual{
   position: absolute;
   left: calc(50% - 60px);
   font-size: 1.2rem;
@@ -402,14 +409,26 @@ margin-bottom: 50px;
   border-radius: 5px;
   padding: 6px;
 }
-.plan-card--title{
+.plan-trimestral{
+  background-color: var(--yellow);
+  color: var(--warm-black);
+  font-weight: bold;
+}
+.plan-mensual{
+  background-color: var(--warm-black);
+}
+.plan-card--title, .plan-card--title__trimestral, .plan-card--title__mensual{
   padding-top: 30px;
   font-size: 1.4rem;
   font-weight:500;
   line-height: 1.8rem;
   color: black;
 }
-.plan-card--price{
+.plan-card--title__trimestral{
+  color: var(--just-white);
+}
+
+.plan-card--price, .plan-card--price__trimestral, .plan-card--price__mensual{
   position: relative;
   padding: 5px 0;
   font-size: 5.2rem;
@@ -417,18 +436,25 @@ margin-bottom: 50px;
   line-height: 5.3rem;
   color: black;
 }
-.plan-card--price span{
+.plan-card--price__trimestral{
+  color: var(--just-white);
+}
+
+.plan-card--price span, .plan-card--price__trimestral span, .plan-card--price__mensual span{
   position: absolute;
   top: -5px;
   left: calc(50% - 40px);
   font-size: 1.2rem;
   font-weight: 300;
 }
-.plan-card--saving{
+.plan-card--saving, .plan-card--saving__mensual{
   font-size: 1.2rem;
   color: #757575;
 }
-.plan-card--ca{
+.plan-card--saving__mensual{
+  color: var(--black);
+}
+.plan-card--ca, .plan-card--ca__trimestral, .plan-card--ca__mensual{
   width: 150px;
   height: 48px;
   margin-top:20px;
@@ -441,7 +467,15 @@ margin-bottom: 50px;
   line-height: 1.8rem;
   color:var(--black) ;
 }
-.plan-card--ca span{
+.plan-card--ca__trimestral{
+  background-color:var(--black);
+  border-color: var(--yellow);
+  color: var(--just-white);
+}
+.plan-card--ca__mensual{
+  border-color:var(--soft-orange);
+}
+.plan-card--ca span, .plan-card--ca__trimestral span, .plan-card--ca__mensual span{
   display: inline-block;
   width: 20px;
   height:20px;

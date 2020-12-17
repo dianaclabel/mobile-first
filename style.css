@@ -380,7 +380,7 @@ margin-bottom: 50px;
   color: #757575;
 }
 .plans-container--slider{
-   display: flex;
+  display: flex;
    height: 316px;
    overflow-x: scroll;
    overscroll-behavior-x:contain;
@@ -495,3 +495,22 @@ margin-bottom: 50px;
   background-size: cover;
   vertical-align: text-bottom;
 }
+.icons{
+  position:absolute;
+  display: inline-block;
+  width:10px ;
+  height:10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+  .left{
+    background-image: url(./assets/icons/Vector-left.svg);
+    left:-15px;
+    bottom: 50%;
+  }
+  .right{
+    background-image: url(./assets/icons/Vector-right.svg);
+    bottom: 50%;
+    right:-15px;
+  }

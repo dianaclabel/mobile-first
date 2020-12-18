@@ -16,7 +16,7 @@
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #ffffff;
-  --yellow:#FFD064;
+  --yellow: #ffd064;
 }
 
 * {
@@ -250,7 +250,7 @@ main {
   color: var(--warm-black);
   font-weight: 300;
 }
-.main-product-detail{
+.main-product-detail {
   position: relative;
   width: 100%;
   min-width: 320px;
@@ -258,12 +258,12 @@ main {
   padding: 20px 10px;
   background-color: var(--warm-black);
 }
-.product-detail--batata-logo{
+.product-detail--batata-logo {
   position: absolute;
-  width:40px;
+  width: 40px;
   height: 25px;
   background-image: url("/assets/icons/group-papa.svg");
-  top:-12.5px;
+  top: -12.5px;
   left: calc(50% - 20px);
 }
 .product-detail--title {
@@ -271,57 +271,58 @@ main {
   min-width: 280px;
   height: auto;
   margin: 0 auto;
-  margin-top:50px ;
+  margin-top: 50px;
   text-align: center;
 }
 .product-detail--title h2 {
   margin-bottom: 20px;
   font-size: 2.4rem;
-  font-weight:bold;
+  font-weight: bold;
   line-height: 2.6rem;
-  color:var(--just-white);
+  color: var(--just-white);
 }
-.product-detail--title p{
-  margin-bottom:20px;
+.product-detail--title p {
+  margin-bottom: 20px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color:#808080;
+  color: #808080;
 }
-.product-detail--card{
+.product-detail--card {
   width: 90%;
-  min-width:288px;
-  max-width:400px;
-   min-height: 150px;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 150px;
   margin: 15px auto;
   padding: 15px;
-  background-color:var(--black);
+  background-color: var(--black);
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-.product-detail--card .clock, .eye, .dollar,
-.check-circle
-{
-display: inline-block;
-width: 20px;
-height: 20px;
-margin-bottom: 10px;
-background-image: url("./assets/icons/clock.svg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position:center;
+.product-detail--card .clock,
+.eye,
+.dollar,
+.check-circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url("./assets/icons/clock.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.product-detail--card .eye{
+.product-detail--card .eye {
   background-image: url("./assets/icons/eye.svg");
 }
-.product-detail--card .dollar{
+.product-detail--card .dollar {
   background-image: url("./assets/icons/dollar-sign.svg");
 }
-.product-detail--card .check-circle{
+.product-detail--card .check-circle {
   background-image: url("./assets/icons/check-circle.svg");
 }
 
-.product--card-title{
+.product--card-title {
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -329,13 +330,13 @@ background-position:center;
   color: var(--just-white);
 }
 
-.product--card-body{
+.product--card-body {
   font-size: 1.4rem;
   font-weight: 500;
-  line-height:1.8rem;
-  color:#808080 ;
+  line-height: 1.8rem;
+  color: #808080;
 }
-.bitcoin-img-container{
+.bitcoin-img-container {
   width: 100%;
   min-width: 320px;
   height: 50vh;
@@ -344,32 +345,32 @@ background-position:center;
   background-position: center;
   background-size: cover;
 }
-.bitcoin-img-container h2{
+.bitcoin-img-container h2 {
   padding: 60px;
   text-align: center;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color:var(--just-white);
+  color: var(--just-white);
 }
-.main-plans-container{
+.main-plans-container {
   width: 100%;
-  min-width:320px;
+  min-width: 320px;
   padding-bottom: 70px;
   text-align: center;
 }
-.main-plans-container .plans--title{
-width: 90%;
-min-width:288px;
-height: auto;
-margin: 0 auto;
-margin-bottom: 50px;
+.main-plans-container .plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
-.plans--title h2{
-  padding-top:50px ;
+.plans--title h2 {
+  padding-top: 50px;
   font-size: 2.4rem;
   font-weight: bold;
-  line-height:2.6rem;
+  line-height: 2.6rem;
   color: var(--black);
 }
 .plans--title p {
@@ -379,35 +380,37 @@ margin-bottom: 50px;
   line-height: 1.8rem;
   color: #757575;
 }
-.plans-container--slider{
+.plans-container--slider {
   display: flex;
-   height: 316px;
-   overflow-x: scroll;
-   overscroll-behavior-x:contain;
-   scroll-snap-type: x proximity;
-  margin-right: 20px;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
 }
-.plans-container--card, .plans-container--trimestral,.plans-container--mensual {
+.plans-container--card,
+.plans-container--trimestral,
+.plans-container--mensual {
   position: relative;
   scroll-snap-align: center;
   width: 70%;
-  min-width: 230px;
+  min-width: 190px;
   max-width: 300px;
   height: 250px;
-  margin: 50px 20px  0;
-  padding:  0 15px;
+  margin: 50px 5px 0;
+  padding: 0 15px;
   background-color: var(--just-white);
-  border-radius:15px ;
-  box-shadow:0 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
-.plans-container--trimestral{
+.plans-container--trimestral {
   background-color: var(--black);
 }
-.plans-container--mensual{
+.plans-container--mensual {
   background-color: var(--bitcoin-orange);
-  
 }
-.recomendado, .plan-trimestral, .plan-mensual{
+.recomendado,
+.plan-trimestral,
+.plan-mensual {
   position: absolute;
   left: calc(50% - 60px);
   font-size: 1.2rem;
@@ -419,26 +422,30 @@ margin-bottom: 50px;
   border-radius: 5px;
   padding: 6px;
 }
-.plan-trimestral{
+.plan-trimestral {
   background-color: var(--yellow);
   color: var(--warm-black);
   font-weight: bold;
 }
-.plan-mensual{
+.plan-mensual {
   background-color: var(--warm-black);
 }
-.plan-card--title, .plan-card--title__trimestral, .plan-card--title__mensual{
+.plan-card--title,
+.plan-card--title__trimestral,
+.plan-card--title__mensual {
   padding-top: 30px;
   font-size: 1.4rem;
-  font-weight:500;
+  font-weight: 500;
   line-height: 1.8rem;
   color: black;
 }
-.plan-card--title__trimestral{
+.plan-card--title__trimestral {
   color: var(--just-white);
 }
 
-.plan-card--price, .plan-card--price__trimestral, .plan-card--price__mensual{
+.plan-card--price,
+.plan-card--price__trimestral,
+.plan-card--price__mensual {
   position: relative;
   padding: 5px 0;
   font-size: 5.2rem;
@@ -446,71 +453,105 @@ margin-bottom: 50px;
   line-height: 5.3rem;
   color: black;
 }
-.plan-card--price__trimestral{
+.plan-card--price__trimestral {
   color: var(--just-white);
 }
 
-.plan-card--price span, .plan-card--price__trimestral span, .plan-card--price__mensual span{
+.plan-card--price span,
+.plan-card--price__trimestral span,
+.plan-card--price__mensual span {
   position: absolute;
   top: -5px;
   left: calc(50% - 40px);
   font-size: 1.2rem;
   font-weight: 300;
 }
-.plan-card--saving, .plan-card--saving__mensual{
+.plan-card--saving,
+.plan-card--saving__mensual {
   font-size: 1.2rem;
   color: #757575;
 }
-.plan-card--saving__mensual{
+.plan-card--saving__mensual {
   color: var(--black);
 }
-.plan-card--ca, .plan-card--ca__trimestral, .plan-card--ca__mensual{
+.plan-card--ca,
+.plan-card--ca__trimestral,
+.plan-card--ca__mensual {
   width: 150px;
   height: 48px;
-  margin-top:20px;
-  background-color:var(--off-white);
+  margin-top: 20px;
+  background-color: var(--off-white);
   border: 2px solid var(--bitcoin-orange);
   font-family: "DM Sans", sans-serif;
   border-radius: 4px;
-  font-size:1.4rem;
+  font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.8rem;
-  color:var(--black) ;
+  color: var(--black);
 }
-.plan-card--ca__trimestral{
-  background-color:var(--black);
+.plan-card--ca__trimestral {
+  background-color: var(--black);
   border-color: var(--yellow);
   color: var(--just-white);
 }
-.plan-card--ca__mensual{
-  border-color:var(--soft-orange);
+.plan-card--ca__mensual {
+  border-color: var(--soft-orange);
 }
-.plan-card--ca span, .plan-card--ca__trimestral span, .plan-card--ca__mensual span{
+.plan-card--ca span,
+.plan-card--ca__trimestral span,
+.plan-card--ca__mensual span {
   display: inline-block;
   width: 20px;
-  height:20px;
-  background-image:url("./assets/icons/arrow-right.svg");
+  height: 20px;
+  background-image: url("./assets/icons/arrow-right.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   vertical-align: text-bottom;
 }
-.icons{
-  position:absolute;
+.icons {
+  position: absolute;
   display: inline-block;
-  width:10px ;
-  height:10px;
+  width: 10px;
+  height: 10px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  }
-  .left{
-    background-image: url(./assets/icons/Vector-left.svg);
-    left:-15px;
-    bottom: 50%;
-  }
-  .right{
-    background-image: url(./assets/icons/Vector-right.svg);
-    bottom: 50%;
-    right:-15px;
-  }
+}
+.left {
+  background-image: url(./assets/icons/Vector-left.svg);
+  left: -10px;
+  bottom: 50%;
+}
+.right {
+  background-image: url(./assets/icons/Vector-right.svg);
+  bottom: 50%;
+  right: -10px;
+  
+}
+footer{
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color:var(--bitcoin-orange);
+}
+footer section{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+footer .section-left ul {
+  font-size:1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+.section-left li{
+  margin: 10px 0;
+}
+.section-left a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+
